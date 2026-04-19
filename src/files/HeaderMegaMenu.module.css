@@ -1,0 +1,99 @@
+.header {
+  height: 60px;
+  margin-top:20px;
+  background-color: var(--mantine-color-body);
+  border-bottom: 1px solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+}
+
+.inner {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  display: block;
+  line-height: 0;
+  padding: 5px 10px;
+  
+  border-radius: var(--mantine-radius-sm);
+  text-decoration: none;
+  color:rgb(36, 36, 36);
+  font-weight: 550;
+  font-size:16px;
+
+  @mixin hover {
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+  }
+  @media (max-width:1600px)
+  {
+    padding:20px;
+    margin:5px;
+  }
+}
+.subLink {
+  width: 100%;
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+  border-radius: var(--mantine-radius-md);
+
+  @mixin hover {
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-7));
+  }
+}
+a:hover {
+  color:#CCCC00;
+  text-decoration: none;
+}
+a{
+  color:rgb(36, 36, 36);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.linkLabel {
+  margin-right: 5px;
+}
+.yellow{
+  color:rgb(243, 243, 91);
+}  
+.offerButton{
+  position:relative;
+  right:250px;
+  background:#ffff00;
+  color:black;
+}
+@media (min-width: 1600px) {
+  .offerButton {
+    right:115px;
+  }
+}
+@media (max-width: 1200px) {
+  .offerButton {
+    right: 50px;
+  }
+}
+.offerButton:hover{
+  background:#CCCC00;;
+  color:black;
+}
+
+.offerButtonSmall{
+  background:#ffff00;
+  color:black;
+}
+.offerButtonSmall:hover{
+  background:#CCCC00;;
+  color:black;
+}
+@media (max-width: 768px) {
+  .topStripe {
+    display: none;
+  }
+}
+@media(min-width:1600px){
+  .logoImg{
+    position:relative;
+    left:115px;
+  }
+}

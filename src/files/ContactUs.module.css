@@ -1,0 +1,137 @@
+.wrapper {
+  height: 450px;
+  margin-top: 50px;
+  margin-left: 250px;
+  background-color: #ffee32;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 1150px;
+
+  @media (min-width: 1600px) {
+      width: 90%;
+      position: relative;
+      left: 100px;
+  }
+
+
+  @media (max-width: 1024px) {
+      margin-left: auto;
+      margin-right: auto;
+      width: 85%;
+      height: auto;
+      padding: 20px;
+  }
+
+
+  @media (max-width: 768px) {
+      width: 90%;
+      padding: 15px;
+  }
+}
+
+
+
+.title {
+  font-size: 26px;
+  font-family: Greycliff CF, var(--mantine-font-family);
+  color: #333;
+  line-height: 2;
+
+  @media (max-width: 1024px) {
+      font-size: 24px;
+      text-align: center;
+  }
+
+  @media (max-width: 768px) {
+      font-size: 22px;
+  }
+}
+
+.description {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+
+  @media (max-width: 1024px) {
+      font-size: 18px;
+      text-align: center;
+  }
+}
+
+.form {
+  position: relative;
+  bottom: 20px;
+  margin-left: 150px;
+  width: 400px;
+  background-color: #f6de26;
+  padding: var(--mantine-spacing-xl);
+  border-radius: var(--mantine-radius-md);
+  box-shadow: var(--mantine-shadow-lg);
+
+
+  @media (max-width: 1024px) {
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+      padding: var(--mantine-spacing-lg);
+  }
+
+
+  @media (max-width: 768px) {
+      width: 90%;
+  }
+}
+
+.social {
+  color: var(--mantine-color-white);
+
+  &:hover {
+      color: var(--mantine-color-blue-1);
+  }
+}
+
+.input {
+  background-color: var(--mantine-color-white);
+  border-color: var(--mantine-color-gray-4);
+  color: var(--mantine-color-black);
+
+  &::placeholder {
+      color: var(--mantine-color-gray-5);
+  }
+}
+
+.inputLabel {
+  color: var(--mantine-color-black);
+}
+
+.control {
+  background: #ffff00;
+  color: black;
+}
+
+.control:hover {
+  background: #CCCC00;
+  color: black;
+}
+
+.ContactMargin {
+  margin-top: 150px;
+
+
+  @media (max-width: 1024px) {
+      margin-top: 100px;
+  }
+
+  @media (max-width: 768px) {
+      margin-top: 50px;
+  }
+}
+.footerSpacer {
+  margin-top: 0;
+}
+
+@media (min-width: 1024px) {
+  .footerSpacer {
+    margin-top: 250px;
+  }
+}

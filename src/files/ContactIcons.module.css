@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    color: #333;
+  }
+  
+  .icon {
+    margin-right: var(--mantine-spacing-md);
+    background-color: transparent;
+  }
+  
+  .title {
+    font-size:18px;
+    color: #333;
+  }
+  
+  .description {
+    font-size:20px;
+    color: #333;
+  }

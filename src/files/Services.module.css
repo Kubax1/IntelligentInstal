@@ -1,0 +1,51 @@
+.arrow1,
+.arrow2 {
+  position: absolute;
+  top:45%;
+  transform: translateY(-50%);
+  color: black;
+  background-color: yellow;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  outline: none; 
+}
+
+.arrow1:focus,
+.arrow2:focus {
+  outline: none; 
+}
+
+.arrow1:active,
+.arrow2:active {
+  transform: translateY(-50%) scale(0.98); 
+}
+
+@media (min-width: 800px) {
+
+  .arrow2 {
+    right: 15px;
+  }
+}
+
+
+@media (max-width: 799px) {
+  .arrow1 {
+    left: 10px;
+  }
+  .arrow2 {
+    right: 10px;
+  }
+}
+
+.arrow1:hover,
+.arrow2:hover {
+  background: #CCCC00;
+  color: black;
+}
+.servicesp {
+  text-align: center;
+  font-weight: bold;
+  font-size: 34px;
+  margin-bottom: 10px;
+}

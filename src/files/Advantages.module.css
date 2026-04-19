@@ -1,0 +1,20 @@
+.title {
+    font-size: 34px;
+    font-weight: 900;
+  
+    @media (max-width: $mantine-breakpoint-sm) {
+      font-size: 24px;
+    }
+}
+  
+  .description {
+    max-width: 600px;
+    margin: auto;
+
+  }
+  
+  .card {
+    border: 1px solid light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-5));
+    
+  }
+  
